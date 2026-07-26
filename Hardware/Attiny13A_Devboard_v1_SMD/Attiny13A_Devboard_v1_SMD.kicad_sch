@@ -2557,6 +2557,12 @@
 		(uuid "4bbe15a8-08e0-4075-bd13-9116293b92be")
 	)
 	(junction
+		(at 55.88 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7530be57-5bf4-450c-982c-54b877d8ead0")
+	)
+	(junction
 		(at 43.18 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2774,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 54.61) (xy 67.31 54.61)
+			(xy 50.8 54.61) (xy 55.88 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3101,6 +3107,16 @@
 			(type default)
 		)
 		(uuid "dc1b32e0-08af-4e38-aea5-aac2ee150d15")
+	)
+	(wire
+		(pts
+			(xy 55.88 54.61) (xy 67.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feeec8d5-1002-4629-959d-eb32281abbf9")
 	)
 	(global_label "AVR_SCK"
 		(shape bidirectional)
@@ -4523,6 +4539,84 @@
 			(project "Attiny13A_Devboard_v1_SMD"
 				(path "/5d112f69-b4bf-4615-b7c8-2f57c66ae4ee"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49f1ab98-7283-4c79-b817-0b14e7ede8d6")
+		(property "Reference" "TP9"
+			(at 57.15 59.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_GND"
+			(at 64.516 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcfd6709-9e7a-4131-a789-c8a36b0f8729")
+		)
+		(instances
+			(project "Attiny13A_Devboard_v1_SMD"
+				(path "/5d112f69-b4bf-4615-b7c8-2f57c66ae4ee"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
