@@ -8,5 +8,5 @@ J2	1	ISP-6	Male / THT/ Vertical	2.54 mm 1x3
 J3	1	Conn_01x06_Pin	Male / THT/ Vertical	2.54 mm 1x6	
 R1	1	470	1% 125 mW	1206	
 R2	1	10k	1% 125 mW	1206	
-SW1	1	SW_RESET	H=5.0mm Tactile	4.5 x 4.5 SMD	
+SW1	1	SW_RESET	H=4.5mm Tactile	4.5 x 4.5 SMD	SWT0210-045026GSA
 U1	1	ATtiny13A-SS	8-Bit AVR 20 Mhz	SOIC-8	ATTINY13A-SSU
