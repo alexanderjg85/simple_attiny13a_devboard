@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "AJ_Electromechanical:SW_SPST_PTS647_Sx38_Handsolder"
 			(at 190.5 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6450,7 +6450,18 @@
 				)
 			)
 		)
-		(property "Spec" "H=5.0mm Tactile"
+		(property "Spec" "H=4.5mm Tactile"
+			(at 190.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR PN" "SWT0210-045026GSA"
 			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
